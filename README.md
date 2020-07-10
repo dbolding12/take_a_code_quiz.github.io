@@ -2,6 +2,21 @@
 
 This activity uses javascript to create a code quiz for a user. Given the acceptance criteria a lot of functions and methods were used to react to the response of the user. The quiz contains a questionaire, timer, records a users score, and allows the users to replay the quiz once completed or the game times out. The user will have 60 seconds to complete 6 multiple choice coding questions. Good Luck!!!
 
+Link to website: https://dbolding12.github.io/take_a_code_quiz.github.io/
+
+Screenshots:
+1. Start Page
+![start](./Photos/Image 1.png)
+
+2. Questions
+![Questions](./Photos/Image 2.png)
+
+3. Game Over
+![Game Over](./Photos/Image 3.png)
+
+4. High Score Records 
+![High Score](./Photos/Image 4.png)
+
 
 # 04 Web APIs: Code Quiz
 

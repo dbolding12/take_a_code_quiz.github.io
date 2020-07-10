@@ -1,4 +1,4 @@
-// HTML Elements API's...
+// HTML Element API's...
 var quiz = document.getElementById("quiz");
 var start = document.getElementById("start");
 var startQuizPage = document.getElementById("startQuizPage");
@@ -14,14 +14,14 @@ var highscoreDisplay = document.getElementById("highscoreDisplay");
 var finalScore = document.getElementById("finalScore");
 var gameover = document.getElementById("gameover");
 
-//Question Element API's...
+//Question and Choices Element API's...
 var question = document.getElementById("question");
 var choiceA = document.getElementById("a");
 var choiceB = document.getElementById("b");
 var choiceC = document.getElementById("c");
 var choiceD = document.getElementById("d");
 
-// Quiz Questions...
+// Quiz Question Set...
 var questions = [{
     question: "What does HTML stand for?",
     choiceA: "Hypertext Markup Language",
@@ -67,7 +67,7 @@ var questions = [{
 
     ];
 
-//Other Variables...
+//Other Variables for timer and question indexes...
 var lastQuestion = questions.length;
 var currentQuestionIndex = 0;
 var timeLeft = 60;
@@ -95,7 +95,7 @@ function startQuiz(){
     startQuizPage.style.display = "none";
     renderQuizQuestion();
 
-//Function timer for user to know the time elapsed and amount of time remaining to complete the quiz... 
+//Function timer for user to view the time elapsed and amount of time remaining to complete the quiz... 
     timerInterval = setInterval(function() {
         timeLeft--;
         timer.textContent = "Time left: " + timeLeft;
@@ -171,7 +171,7 @@ function showHighscore(){
     generateHighscores();
 }
 
-//Function clear high cores [Local Storage clear]...
+//Function clear high scores [Local Storage clear]...
 function clearScore(){
     window.localStorage.clear();
     highscoreDisplayName.textContent = "";
