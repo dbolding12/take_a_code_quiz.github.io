@@ -32,7 +32,7 @@ var questions = [{
   {
     question: "What does CSS describe...?",
     choiceA: "how HTML reacts on mobile devices and desktops",
-    choiceB: "when it is time for the webpage to reactive to a response",
+    choiceB: "when it is time for the webpage to react to a response",
     choiceC: "how HTML elements are to be displayed on webpages",
     choiceD: "how HTML is developed for programming desktops",
     correctAnswer: "c"},
@@ -60,7 +60,7 @@ var questions = [{
     {
     question: "Why is it importance of Github?",
     choiceA: "Github is best used for progrmming Kodi",
-    choiceB: "Github is a extenstion of youtube for coders",
+    choiceB: "Github is a extenstion of youtube for repo's",
     choiceC: "Allows your work to be seen by recruiters",
     choiceD: "Great for watching others play games",
     correctAnswer: "c"},
@@ -107,7 +107,7 @@ function startQuiz(){
       }, 1000); // 1000ms = 1s
     quiz.style.display = "block";
 }
-//Function that displays the score page at the end of the questionaire when completed or time elapses...
+//Function that displays the score page at the end of the questionnaire when completed or time elapses...
 function showScore(){
     quiz.style.display = "none"
     gameover.style.display = "flex";
@@ -116,7 +116,7 @@ function showScore(){
     finalScore.innerHTML = "You got " + score + " out of " + questions.length + " correct!";
 }
 
-//Event to submit score...
+//Event to submit score and enter high score...
 submitScore.addEventListener("click", function highscore(){
     
     
@@ -208,5 +208,5 @@ function checkAnswer(answer){
     }
 }
 
-// Event for user to start the quiz or questionaire...
+// Event for user to start the quiz or questionnaire...
 start.addEventListener("click",startQuiz);
