@@ -5,18 +5,8 @@ This activity uses javascript to create a code quiz for a user. Given the accept
 Link to website: https://dbolding12.github.io/take_a_code_quiz.github.io/
 
 Screenshots:
-1. Start Page
+
 ![start](Photos/Image1.png)
-
-2. Questions
-![Questions](Photos/Image2.png)
-
-3. Game Over
-![Game Over](Photos/Image3.png)
-
-4. High Score Records 
-![High Score](Photos/Image4.png)
-
 
 # 04 Web APIs: Code Quiz
 
