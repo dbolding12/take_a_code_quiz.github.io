@@ -58,7 +58,7 @@ var questions = [{
     choiceD: "A method to reset CSS and HTML",
     correctAnswer: "a"},  
     {
-    question: "Why is it importance of Github?",
+    question: "What is the importance of Github for aspiring developers?",
     choiceA: "Github is best used for progrmming Kodi",
     choiceB: "Github is a extenstion of youtube for repo's",
     choiceC: "Allows your work to be seen by recruiters",
