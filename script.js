@@ -62,16 +62,16 @@ var questions = [{
     choiceA: "Github is best used for progrmming Kodi",
     choiceB: "Github is a extenstion of youtube for coders",
     choiceC: "Allows your work to be seen by recruiters",
-    choiceD: "Great for watching others play video games",
+    choiceD: "Great for watching others play games",
     correctAnswer: "c"},
 
     ];
 
-//Other Variables;
+//Other Variables...
 var lastQuestion = questions.length;
 var currentQuestionIndex = 0;
 var timeLeft = 60;
-var timerInterval;
+var timerInterval = 0;
 var score = 0;
 var correct;
 
@@ -116,14 +116,13 @@ function showScore(){
     finalScore.innerHTML = "You got " + score + " out of " + questions.length + " correct!";
 }
 
-// On click of the submit button, we run the function highscore that saves and stringifies the array of high scores already saved in local stoage
-// as well as pushing the new user name and score into the array we are saving in local storage. Then it runs the function to show high scores.
+//Event to submit score...
 submitScore.addEventListener("click", function highscore(){
     
     
     if(highscoreInputName.value === "") {
         alert("Initials cannot be blank");
-        //alert to inform user initials cannot be blank
+        //alert to inform user initials cannot be blank...
         return false;
     }else{
         var savedHighscores = JSON.parse(localStorage.getItem("savedHighscores")) || [];
@@ -184,9 +183,9 @@ function replayQuiz(){
     highscoreContainer.style.display = "none";
     gameover.style.display = "none";
     startQuizPage.style.display = "flex";
-    timeLeft = 0;
+    timeLeft = 60;
     score = 0;
-    currentQuestionIndex;
+    currentQuestionIndex = 0;
 }
 
 //Function that checks the answer to the question displayed in the quiz...
