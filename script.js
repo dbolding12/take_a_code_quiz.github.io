@@ -113,7 +113,7 @@ function showScore(){
     gameover.style.display = "flex";
     clearInterval(timerInterval);
     highscoreInputName.value = "";
-    finalScore.innerHTML = "You got " + score + " out of " + questions.length + " correct!";
+    finalScore.innerHTML = "You answered " + score + " out of " + questions.length + " correct!";
 }
 
 //Event to submit score and enter high score...
