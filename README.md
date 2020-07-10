@@ -6,16 +6,16 @@ Link to website: https://dbolding12.github.io/take_a_code_quiz.github.io/
 
 Screenshots:
 1. Start Page
-![start](take_a_code_quiz.github.io/Photos/Image 1.png)
+![start](Photos/Image1.png)
 
 2. Questions
-![Questions](./Photos/Image 2.png)
+![Questions](./Photos/Image2.png)
 
 3. Game Over
-![Game Over](./Photos/Image 3.png)
+![Game Over](./Photos/Image3.png)
 
 4. High Score Records 
-![High Score](./Photos/Image 4.png)
+![High Score](./Photos/Image4.png)
 
 
 # 04 Web APIs: Code Quiz
