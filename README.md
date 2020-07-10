@@ -6,7 +6,7 @@ Link to website: https://dbolding12.github.io/take_a_code_quiz.github.io/
 
 Screenshots:
 1. Start Page
-![start](./Photos/Image 1.png)
+![start](take_a_code_quiz.github.io/Photos/Image 1.png)
 
 2. Questions
 ![Questions](./Photos/Image 2.png)
